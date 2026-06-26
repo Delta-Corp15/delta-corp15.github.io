@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="utf8">
+    <script src="index.js"></script>
+</head>
+<body>
+    <script>
+const win = new SVG(document.body, 800, 600);
+
+win.createLinearGradient("grad", 0, 0, 1, 0);
+win.addGradientStop(0, "#234");
+win.addGradientStop(1, "#456");
+win.createShape(20, 20, 80, 60, true, "squircle", 10);
+win.fillDef();
+win.createLinearGradient("grad2", 0, 0, 1, 0);
+win.addGradientStop(0, "#456");
+win.addGradientStop(1, "#234");
+win.strokeDef(5);
+win.event("click", () => alert("hi hi"));
+win.createText("hi", 60, 50);
+win.textFont("serif");
+win.textAlign("middle");
+win.textBaseline("middle");
+win.fill("white");
+    </script>
+</body>
+</html>
