@@ -70,7 +70,7 @@ function DWSFDtoHTML(file) {
             }
             case 'SHORT_ANSWER': {
                 const [question, nick] = variables;
-                html += `<input type="text" class="r" id="${nick}" /><label for="${nick}" class="q">${question.replace(/\\s/g, '&nbsp;').replace(/\\t/g, '&nbsp;'.repeat(8)).replace(/\\n/g, '<br>')}</label>`;
+                html += `<label for="${nick}" class="q">${question.replace(/\\s/g, '&nbsp;').replace(/\\t/g, '&nbsp;'.repeat(8)).replace(/\\n/g, '<br>')}</label><br><input type="text" class="r" id="${nick}" />`;
                 break;
             }
             case "": {
@@ -88,7 +88,7 @@ function DWSFDtoHTML(file) {
 function getDWSFDAnswers() {
     const questions = Array.from(out.querySelectorAll('.q')).map(e => e.textContent);
     const answers = Array.from(out.querySelectorAll('.r')).map(e => {
-        switch (e.tagName) {
+        switch (e.tagName.toLowerCase()) {
             case 'select':
                 return e.value;
             case 'input':
@@ -96,7 +96,7 @@ function getDWSFDAnswers() {
                     case 'checkbox':
                         return e.checked;
                     case 'number':
-                        return e.valueAsNumber;
+                        return Number(e.value);
                     case 'text':
                         return e.value;
                     default:
@@ -109,7 +109,9 @@ function getDWSFDAnswers() {
         }
     });
 
-    const blob = new Blob([JSON.stringify({questions, answers})], { type: 'text/json' });
+    const org = {};
+    questions.forEach((elem, idx) => org[elem] = answers[idx]);
+    const blob = new Blob([JSON.stringify(org)], { type: 'text/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
     a.download = `responses.json`;

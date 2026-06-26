@@ -9,7 +9,7 @@ const projects = [
         title: 'Delta WorkSpace',
         description: 'A minimal workspace for forms an documents (better if you are a dev).',
         tags: ['WS', 'minimal'],
-        folder: 'DeltaWS/',
+        folder: 'deltaWS/',
     },
     {
         title: 'Coming Soon',
