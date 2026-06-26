@@ -7,9 +7,15 @@ const projects = [
     },
     {
         title: 'Delta WorkSpace',
-        description: 'A minimal workspace for forms an documents (better if you are a dev).',
+        description: 'A minimal workspace for forms and documents (better if you are a dev).',
         tags: ['WS', 'minimal'],
         folder: 'deltaWS/',
+    },
+    {
+        title: 'JS SVG',
+        description: 'Make vectors with ease with JavaScript.',
+        tags: ['SVG', 'vectors'],
+        folder: 'jssvg/',
     },
     {
         title: 'Coming Soon',
