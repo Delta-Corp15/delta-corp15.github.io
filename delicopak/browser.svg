@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" xmlns:bx="https://boxy-svg.com">
+    <defs>
+        <linearGradient id="gradient-0" bx:pinned="true">
+            <stop offset="0" style="stop-color: rgba(0, 255, 255, 0.533);"/>
+            <stop offset="1" style="stop-color: rgba(0, 255, 255, 0);"/>
+        </linearGradient>
+        <linearGradient id="gradient-3">
+            <stop offset="0" style="stop-color: rgb(0, 255, 255);"/>
+            <stop offset="1" style="stop-color: rgba(0, 255, 255, 0.533);"/>
+        </linearGradient>
+        <linearGradient id="gradient-0-0" href="#gradient-0" gradientUnits="userSpaceOnUse" x1="23.653" y1="4.97" x2="23.653" y2="43.542"/>
+        <linearGradient id="gradient-0-1" href="#gradient-0" gradientUnits="userSpaceOnUse" x1="19.661" y1="4.918" x2="19.661" y2="42.383"/>
+        <linearGradient id="gradient-3-0" href="#gradient-3" gradientUnits="userSpaceOnUse" x1="23.653" y1="4.97" x2="23.653" y2="43.542"/>
+        <linearGradient id="gradient-3-1" href="#gradient-3" gradientUnits="userSpaceOnUse" x1="19.661" y1="4.918" x2="19.661" y2="42.383"/>
+    </defs>
+    <ellipse style="fill: url(&quot;#gradient-0-0&quot;); stroke: url(&quot;#gradient-3-0&quot;); stroke-linejoin: bevel;" cx="23.653" cy="24.256" rx="19.286" ry="19.286"/>
+    <path style="fill: url(&quot;#gradient-0-1&quot;); stroke: url(&quot;#gradient-3-1&quot;); stroke-linejoin: bevel;" d="M 10.162 10.765 C 6.41 12.752 11.293 21.692 16.287 24.34 C 6.796 26.602 18.053 38.935 14.135 40.894 L 17.859 42.383 C 33.548 27.165 34.805 25.537 20.59 24.422 C 18.079 22.425 20.609 14.569 23.901 20.614 C 24.529 21.013 24.683 13.166 22.991 12.089 C 19.504 10.761 25.19 5.004 25.971 5.302 C 21.031 3.653 12.095 7.657 10.162 10.765 Z"/>
+</svg>

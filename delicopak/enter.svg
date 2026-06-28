@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" xmlns:bx="https://boxy-svg.com">
+    <defs>
+        <linearGradient id="gradient-0" bx:pinned="true">
+            <stop offset="0" style="stop-color: rgba(0, 255, 255, 0.533);"/>
+            <stop offset="1" style="stop-color: rgba(0, 255, 255, 0);"/>
+        </linearGradient>
+        <linearGradient id="gradient-4">
+            <stop offset="0" style="stop-color: rgb(0, 255, 255);"/>
+            <stop offset="1" style="stop-color: rgba(0, 255, 255, 0.533);"/>
+        </linearGradient>
+        <linearGradient id="gradient-0-0" href="#gradient-0" gradientUnits="userSpaceOnUse" x1="17.4" y1="10.038" x2="17.4" y2="38.3"/>
+        <linearGradient id="gradient-0-1" href="#gradient-0" gradientUnits="userSpaceOnUse" x1="14.313" y1="5" x2="14.313" y2="43.3"/>
+        <linearGradient id="gradient-0-2" href="#gradient-0" gradientUnits="userSpaceOnUse" x1="38.956" y1="17.508" x2="38.956" y2="29.508" gradientTransform="matrix(0.99999988, 0, 0, 0.99999988, 9e-8, 2e-8)"/>
+        <linearGradient id="gradient-4-0" href="#gradient-4" gradientUnits="userSpaceOnUse" x1="17.4" y1="10.038" x2="17.4" y2="38.3"/>
+        <linearGradient id="gradient-4-1" href="#gradient-4" gradientUnits="userSpaceOnUse" x1="14.313" y1="5" x2="14.313" y2="43.3"/>
+        <linearGradient id="gradient-4-2" href="#gradient-4" gradientUnits="userSpaceOnUse" x1="38.956" y1="17.508" x2="38.956" y2="29.508" gradientTransform="matrix(0.99999988, 0, 0, 0.99999988, 9e-8, 2e-8)"/>
+    </defs>
+    <path style="fill: url(&quot;#gradient-0-0&quot;); stroke: url(&quot;#gradient-4-0&quot;); stroke-linejoin: bevel;" d="M 5.32 10.038 L 5.3 38.3 L 29.5 38.3 L 29.454 10.038 L 5.32 10.038 Z"/>
+    <path style="stroke-width: 1; fill: url(&quot;#gradient-0-1&quot;); stroke: url(&quot;#gradient-4-1&quot;); stroke-linejoin: bevel;" d="M 5.3469999999999995 10 L 5.327 38.262 L 23.3 43.3 L 23.3 5 L 5.3469999999999995 10 Z"/>
+    <path d="M 33.143 20.508 H 36.769 L 36.769 17.508 L 44.769 23.508 L 36.769 29.508 L 36.769 26.508 H 33.143 V 20.508 Z" bx:shape="arrow 33.143 17.508 11.626 12 6 8 0 1@017edabb" style="fill: url(&quot;#gradient-0-2&quot;); stroke: url(&quot;#gradient-4-2&quot;); transform-box: fill-box; transform-origin: 50% 50%; stroke-linejoin: bevel;" transform="matrix(-0.99999374, 0.00353802, -0.00353802, -0.99999374, -0.56139782, 0.84188126)"/>
+</svg>

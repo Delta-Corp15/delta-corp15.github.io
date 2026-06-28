@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient id="gradient-0" bx:pinned="true">
+      <stop offset="0" style="stop-color: rgba(0, 255, 255, 0.533);"/>
+      <stop offset="1" style="stop-color: rgba(0, 255, 255, 0);"/>
+    </linearGradient>
+    <linearGradient id="gradient-4">
+      <stop offset="0" style="stop-color: rgb(0, 255, 255);"/>
+      <stop offset="1" style="stop-color: rgba(0, 255, 255, 0.533);"/>
+    </linearGradient>
+    <linearGradient id="gradient-0-0" href="#gradient-0" gradientUnits="userSpaceOnUse" x1="23.942" y1="9.17" x2="23.942" y2="35.689"/>
+    <linearGradient id="gradient-0-1" href="#gradient-0" gradientUnits="userSpaceOnUse" x1="23.816" y1="19.432" x2="23.816" y2="35.691"/>
+    <linearGradient id="gradient-0-2" href="#gradient-0" gradientUnits="userSpaceOnUse" x1="23.967" y1="15.226" x2="23.967" y2="35.858"/>
+    <linearGradient id="gradient-4-0" href="#gradient-4" gradientUnits="userSpaceOnUse" x1="23.942" y1="9.17" x2="23.942" y2="35.689"/>
+    <linearGradient id="gradient-4-1" href="#gradient-4" gradientUnits="userSpaceOnUse" x1="23.967" y1="15.226" x2="23.967" y2="35.858"/>
+    <linearGradient id="gradient-4-2" href="#gradient-4" gradientUnits="userSpaceOnUse" x1="23.816" y1="19.432" x2="23.816" y2="35.691"/>
+  </defs>
+  <path style="fill: url(&quot;#gradient-0-0&quot;); stroke-linejoin: bevel; stroke: url(&quot;#gradient-4-0&quot;);" d="M 7.516 11.843 L 12.185 35.606 L 35.865 35.689 L 40.367 11.843 L 23.274 11.759 C 23.298 8.168 10.597 8.395 11.35 11.925 L 7.516 11.843 Z"/>
+  <path style="fill: url(&quot;#gradient-0-2&quot;); stroke-linejoin: bevel; stroke: url(&quot;#gradient-4-1&quot;);" d="M 6.264 17.015 L 12.185 35.775 L 35.865 35.858 L 41.701 15.431 L 9.35 15.263 C 5.705 14.924 6.264 17.015 6.264 17.015 Z"/>
+  <path style="fill: url(&quot;#gradient-0-1&quot;); stroke-linejoin: bevel; stroke: url(&quot;#gradient-4-2&quot;);" d="M 4.681 19.432 L 12.185 35.608 L 35.865 35.691 L 42.951 19.515 L 4.681 19.432 Z"/>
+</svg>

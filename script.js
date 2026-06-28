@@ -18,6 +18,12 @@ const projects = [
         folder: 'jssvg/',
     },
     {
+        title: 'DelIcoPak',
+        description: 'A hacker-style Icon Pack made with SVG made in a fast Saturday night and in a Sunday morning.',
+        tags: ['iconpack', 'hacker'],
+        folder: 'delicopak/',
+    },
+    {
         title: 'Coming Soon',
         description: null,
         tags: ['next', 'launch'],

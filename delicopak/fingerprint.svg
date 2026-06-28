@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" xmlns:bx="https://boxy-svg.com">
+    <defs>
+        <linearGradient id="gradient-0" bx:pinned="true">
+            <stop offset="0" style="stop-color: rgba(0, 255, 255, 0.667);"/>
+            <stop offset="1" style="stop-color: rgba(0, 255, 255, 0.133);"/>
+        </linearGradient>
+        <linearGradient id="gradient-0-0" href="#gradient-0" gradientUnits="userSpaceOnUse" x1="23.51" y1="21.29" x2="23.51" y2="35.037"/>
+        <linearGradient id="gradient-0-1" href="#gradient-0" gradientUnits="userSpaceOnUse" x1="23.436" y1="13.591" x2="23.436" y2="20.946"/>
+        <linearGradient id="gradient-0-2" href="#gradient-0" gradientUnits="userSpaceOnUse" x1="23.435" y1="13.536" x2="23.435" y2="20.892"/>
+        <linearGradient id="gradient-0-3" href="#gradient-0" gradientUnits="userSpaceOnUse" x1="23.216" y1="6.219" x2="23.216" y2="7.687"/>
+    </defs>
+    <path style="fill: none; stroke-linecap: round; stroke-width: 5px; stroke-linejoin: round; stroke: url(&quot;#gradient-0-0&quot;);" d="M 18.428 21.339 C 17.273 22.833 12.356 34.833 20.139 34.744 C 28.103 34.655 18.388 21.282 26.72 21.29 C 34.611 21.295 29.955 35.941 28.444 34.993"/>
+    <path style="fill: none; stroke-linecap: round; stroke-width: 5px; stroke-linejoin: round; stroke: url(&quot;#gradient-0-1&quot;);" d="M 9.29 20.946 C 12.63 10.895 34.733 11.386 37.582 20.946"/>
+    <path style="fill: none; transform-box: fill-box; transform-origin: 49.6528% 198.235%; stroke-linecap: round; stroke-width: 5px; stroke-linejoin: round; stroke: url(&quot;#gradient-0-2&quot;);" d="M 9.289 20.892 C 12.629 10.84 34.732 11.332 37.58 20.892" transform="matrix(-0.999819443581, -0.019002111388, 0.019002111388, -0.999819443581, -0.00000246601, -0.00000105958)"/>
+    <path style="fill: none; stroke-linecap: round; stroke-width: 5px; stroke-linejoin: round; stroke: url(&quot;#gradient-0-3&quot;);" d="M 14.005 7.687 C 19.228 5.714 26.661 5.775 32.427 7.596"/>
+</svg>
